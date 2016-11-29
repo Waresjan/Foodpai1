@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--黑白-->
+    <color name="colorWeigt">#ffffff</color>
+    <color name="colorBlack">#111111</color>
+
+    <!--radio被选中和者没被选中的颜色-->
+    <color name="colorIsChecked">#ff4081</color>
+    <color name="colorIsNotChecked">#dddddd</color>
+
+    <!--分割线的颜色-->
+    <color name="colorDivedeLine">#9b9898</color>
+
+    <!--食物百科接近白色的背景-->
+    <color name="colorBackgroundLibrary">#f1f7f1</color>
+</resources>

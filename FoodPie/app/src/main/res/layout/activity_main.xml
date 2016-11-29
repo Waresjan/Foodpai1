@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.lanou3g.foodpie.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+    </FrameLayout>
+
+    <include layout="@layout/line_horizontal"/>
+    <RadioGroup
+        android:id="@+id/main_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="3dp"
+        >
+ <RadioButton
+     android:id="@+id/main_radio_memorize"
+     android:layout_width="0dp"
+     android:layout_height="match_parent"
+     android:layout_weight="1"
+     android:button="@null"
+     android:drawableTop="@drawable/selector_library_pic"
+     android:text="食物百科"
+     android:gravity="center"
+     android:textColor="@drawable/selector_radiobutton_text_color"
+     />
+
+        <RadioButton
+            android:id="@+id/main_radio_eat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_eat_pic"
+            android:text="逛吃"
+            android:gravity="center"
+            android:textColor="@drawable/selector_radiobutton_text_color"
+            />
+
+        <RadioButton
+            android:id="@+id/main_radio_my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_my_pic"
+            android:text="我的"
+            android:gravity="center"
+            android:textColor="@drawable/selector_radiobutton_text_color"
+            />
+
+    </RadioGroup>
+</LinearLayout>
